@@ -1,0 +1,131 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+@font-face {
+    font-family: 'Passionone';
+    src: url('GoogleFonts-PassionOne-Bold.ttf') format(truetype);
+}    
+
+@font-face {
+    font-family: 'Sriracha';
+        src: url('GoogleFonts-Sriracha-Regular.ttf') format(truetype)
+    }
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    min-height: 100vh;
+    background-color: darkgray;
+}
+
+header {
+background-color: black;
+}
+
+header>h1 {
+    font-family: 'Passionone';
+    font-size: 10vw;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    font-variant: small-caps;
+}
+
+header p {
+    padding-bottom: 50px;
+}
+
+header p a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+
+header p a:hover {
+    text-decoration: underline;
+
+}
+
+header p {
+    color: white;
+    text-align: center;
+    margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 30px;
+}
+
+
+section {
+    color: BLACK;
+    font-family: 'Sriracha';
+    font-size: 3.5vw;    
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+}
+
+section.normal {
+    background-color: white;
+    color: black;
+}
+
+
+section.imagem {
+    background-color: gray;
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px rgb(20, 20, 20);
+    background-attachment: fixed;
+}
+
+section.imagem > p {
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.308);
+    padding: 5px;
+    border-radius: 5px;
+    text-shadow: 1px 1px 0px black;
+}
+
+section p {
+    padding-bottom: 1em;
+}
+
+section#img-01 {
+    background-image: url('imagens/background001.jpg');
+    background-position: right bottom;
+    background-size: cover;
+}
+
+section#img-02 {
+    background-image: url('imagens/background002.jpg');
+    background-position: right bottom;
+    background-size: cover;
+}
+
+
+footer p {
+    text-align: center;
+    color: white;
+    background-color: black;
+    margin-bottom: 0px;
+    padding: 5px;
+    padding-bottom: 8px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    font-size: 1em;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
